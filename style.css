@@ -557,14 +557,15 @@ nav{
 
 }
 .about-rasi{
-    margin-top: 4cm;
+    margin-top: 0.5cm;
     text-align: center;
     position: relative;
     z-index: 2;
+    font-size: 20px;
 }
 #contact-button{
 height: 1.5cm;
-width: 6cm;
+width: 4cm;
 border-radius: 0.2cm;
 background-color: #bdb8b8;
 border: none;
@@ -585,16 +586,18 @@ font-size: 25px;
     font-size: 27px;
 }
 .rasi-artistry{
-    display: flex;
+    /* display: flex; */
+    display: block;
+    display: flex wrap;
     gap: 4cm;
     margin-top: 2cm;
 
 }
 #first-art{
-    width: 15cm;
-    height: 15cm;
+    width: 9cm;
+    height: 10cm;
     border-radius: 0.5cm;
-    margin-left: 4.5cm;
+    margin-left: 0.6cm;
 }
 #rasiscreen{
     color: #43A961;
@@ -602,40 +605,41 @@ font-size: 25px;
 }
 #know-button{
     background-color: #43A961;
-    width: 5cm;
+    width: 3cm;
     height: 1.5cm;
     border-radius: 1cm;
     border: none;
     margin-top: 0.5cm;
     cursor: pointer;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
 
 }
 #contact-us{
-    width: 5cm;
+    width: 3cm;
     height: 1.5cm;
     border-radius: 1cm;
     margin-left: 0.5cm;
     margin-top: 0.5cm;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 15px;
 }
 #timeless-artistry{
     font-size: 35px;
 }
 .services{
-    display: flex;
+    /* display: flex; */
+    display: block;
     background-color: rgb(230, 240, 250);
     gap: 6cm;
-    height: 3cm;
+    height: 8cm;
     padding-top: 0.9cm;
     margin-top: 2cm;
 }
 #quality{
     display: flex;
     gap: 0.5cm;
-    margin-left: 2cm;
+    margin-left: 0.3cm;
 }
 #trophy{
     width: 1cm;
@@ -675,56 +679,80 @@ margin-top: 0.4cm;
     margin-top: 1.5cm;
 }
 #technique{
-    font-size: 40px;
+    font-size: 20px;
 }
 .specific-printing-techniques{
-    display: flex;
+    /* display: flex; */
+    display: block;
     gap: 1cm;
     margin-top: 2cm;
 }
 #pink-paint{
-    width: 11cm;
-    height: 12cm;
+    width: 9cm;
+    height: 10cm;
+    margin-left: -3.9cm;
 border-radius: 0.5cm;
 }
+#textile{
+    margin-left: -3.7cm;
+}
+#textile-msg{
+    margin-left: -3.7cm;
+}
 #pattern{
-    width: 11cm;
-    height: 12cm;
+    width: 9cm;
+    height: 9cm;
     border-radius: 0.5cm;
+    margin-left: 0.9cm;
+}
+#uv{
+    margin-left: 0.9cm;
+}
+#screen-uv{
+    margin-left: 0.9cm;
 }
 #machine-paint{
-    width: 11cm;
-    height: 12cm;  
+    width: 9cm;
+    height: 9cm;  
     border-radius: 0.5cm;
+    margin-left: 0.9cm;
+}
+#four-color{
+    margin-left: 0.9cm;
+}
+#cmyk{
+    margin-left: 0.9cm;
 }
 #first-technique{
     margin-left: 4.5cm;
 }
 .fa-arrow-right{
     margin-left: 6cm;
-    width: 0.5cm;
-    height: 0.5cm;
+    width: 0.3cm;
+    height: 0.3cm;
     border: 1px solid;
     border-radius: 1cm;
     padding: 0.5cm;
     background-color: rgb(230, 240, 250);
     border:none;
+    margin-top: -1.5cm;
 }
 #praises{
-    font-size: 40px;
+    font-size: 20px;
 }
 .company-client{
     text-align: center;
     margin-top: 2cm;
 }
 .garment-industries{
-    display: flex;
+    /* display: flex; */
+    display: block;
     gap: 1cm;
     margin-top: 3cm;
 }
 #birla{
     display: flex;
-    margin-left: 4.5cm;
+    margin-left: 0.1cm;
     gap: 1cm;
     width: 10cm;
     height: 2cm;
@@ -740,6 +768,7 @@ border-radius: 0.5cm;
     background-color: rgb(247, 249, 252);
     border-radius: 0.8cm;
     padding: 0.5cm;
+    margin-left: 0.1cm;
 }
 #raymond{
     display: flex;
@@ -749,6 +778,7 @@ border-radius: 0.5cm;
     background-color: rgb(247, 249, 252);
     border-radius: 0.8cm;
     padding: 0.5cm;
+    margin-left: -0.2cm;
 }
 #aditya-company{
     width: 1cm;
@@ -766,7 +796,7 @@ border-radius: 0.5cm;
     margin-top: 0.4cm;
 }
 #actual-message{
-    margin-left: 4.5cm;
+    margin-left: 0.9cm;
 }
 #print-on-time{
     font-size: 20px;
@@ -776,19 +806,20 @@ border-radius: 0.5cm;
     color: #43A961;
 }
 #green-couch{
-    width: 12cm;
-    height: 8cm;
+    width: 9cm;
+    height: 7cm;
     border-radius: 1cm;
 }
 .cfo-message{
-    display: flex;
+    /* display: flex; */
+    display: block;
     gap: 3cm;
     margin-top: 2cm;
 }
 #store{
     width: 2cm;
     height: 1.7cm;
-    margin-left: 4.5cm;
+    margin-left: 0.7cm;
 }
 #gap{
     width: 2.7cm;
@@ -798,7 +829,7 @@ border-radius: 0.5cm;
 #myntra{
     width: 2.7cm;
     height: 1.7cm;
-    margin-left: 2cm; 
+    margin-left: 0.6cm; 
 }
 #puma{
     width: 3cm;
@@ -809,7 +840,7 @@ border-radius: 0.5cm;
 #adit{
     width: 2.7cm;
     height: 1.7cm;
-    margin-left: 2cm;
+    margin-left: 0.4cm;
 }  
 #converse{
  width: 3cm; 
@@ -819,39 +850,44 @@ border-radius: 0.5cm;
 #mark{
     width: 3cm;
     height: 1.7cm;
-    margin-left: 2cm;
+    margin-left: 0.4cm;
 }
 .companies{
     margin-top: 3cm;
+    display: block;
 }
 .work-exhibition{
     text-align: center;
     margin-top: 2cm;
 }
 #our-work{
-    font-size: 40px;
+    font-size: 20px;
 }
 #first-exhib{
-    width: 10cm;
-    height: 10cm;
-    margin-left: 4.5cm;
+    width: 2.5cm;
+    height: 2cm;
+    margin-left: 0.6cm;
     border-radius: 0.5cm;
 }
 #bed{
-    width: 10cm;
-    height: 10cm;
+    width: 2.5cm;
+    height: 2cm;
     border-radius: 0.5cm;
+    margin-left: 0.2cm;
 }
 #dress{
     width: 1cm;
-    width: 15cm;
+    width: 2.5cm;
+    height: 2cm;
     border-radius: 0.5cm;
+    margin-left: 0.2cm;
 }
 #work-example{
     gap: 1cm;
 }
 #house-pic{
-    margin-left: 7.5cm;
+    margin-left: 1.5cm;
+    width: 7cm;
     
     border-radius: 0.5cm;
 }
@@ -859,19 +895,19 @@ border-radius: 0.5cm;
     text-align: center;
 }
 #reach{
-    font-size: 40px;
+    font-size: 20px;
 }
 #map{
-    margin-left: 4.5cm;
+    margin-left: 1cm;
     width: 80%;
-    height: 16cm;
+    height: 8cm;
 }
 #contact-channels{
     position: absolute;
-    top: 140cm;
-    margin-left: 7cm;
+    top: 170cm;
+    margin-left: 3cm;
     background-color: white;
-    width: 10cm;
+    width: 5cm;
     padding: 1cm;
     height: 10cm;
     border-radius: 0.5cm;
